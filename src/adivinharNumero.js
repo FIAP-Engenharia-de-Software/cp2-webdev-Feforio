@@ -6,9 +6,19 @@
 
 // - Retornar `"Acertou!"` se o número gerado for igual ao `palpite`;
 // - Retornar `"Errou! Tente novamente!"` se o palpite estiver incorreto.
-
+// palpite = 4
+// max = 6
 function adivinharNumero(max, palpite) {
-  // TODO: implementar função
+  rand = Math.random()*max
+  if (rand == palpite){
+    return "Acertou!"
+  }
+  else {
+    return "Errou! Tente novamente!"
+  }
+
+
+
 }
 
 
